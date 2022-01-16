@@ -1,0 +1,43 @@
+$date
+	Wed Mar 10 05:38:23 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module decode_tb $end
+$var wire 64 ! valB [63:0] $end
+$var wire 64 " valA [63:0] $end
+$var wire 1 # flag2 $end
+$var reg 1 $ flag1 $end
+$var reg 4 % icode [3:0] $end
+$var reg 4 & rA [3:0] $end
+$var reg 4 ' rB [3:0] $end
+$scope module nav $end
+$var wire 1 $ flag1 $end
+$var wire 4 ( icode [3:0] $end
+$var wire 4 ) rA [3:0] $end
+$var wire 4 * rB [3:0] $end
+$var reg 1 # flag2 $end
+$var reg 64 + valA [63:0] $end
+$var reg 64 , valB [63:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b10 ,
+b100 +
+b10 *
+b100 )
+b110 (
+b10 '
+b100 &
+b110 %
+1$
+1#
+b100 "
+b10 !
+$end

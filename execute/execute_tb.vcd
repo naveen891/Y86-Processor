@@ -1,0 +1,54 @@
+$date
+	Wed Mar 10 20:15:32 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module execute_tb $end
+$var wire 64 ! valE [63:0] $end
+$var wire 1 " flag3 $end
+$var wire 1 # cnd $end
+$var reg 1 $ flag2 $end
+$var reg 4 % icode [3:0] $end
+$var reg 4 & ifun [3:0] $end
+$var reg 4 ' rA [3:0] $end
+$var reg 4 ( rB [3:0] $end
+$var reg 64 ) valA [63:0] $end
+$var reg 64 * valB [63:0] $end
+$var reg 64 + valC [63:0] $end
+$scope module nav $end
+$var wire 1 $ flag2 $end
+$var wire 4 , icode [3:0] $end
+$var wire 4 - ifun [3:0] $end
+$var wire 64 . valA [63:0] $end
+$var wire 64 / valB [63:0] $end
+$var wire 64 0 valC [63:0] $end
+$var reg 1 # cnd $end
+$var reg 1 " flag3 $end
+$var reg 64 1 valE [63:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b110 1
+b0 0
+b10 /
+b100 .
+b0 -
+b110 ,
+b0 +
+b10 *
+b100 )
+b10 (
+b100 '
+b0 &
+b110 %
+1$
+x#
+1"
+b110 !
+$end
